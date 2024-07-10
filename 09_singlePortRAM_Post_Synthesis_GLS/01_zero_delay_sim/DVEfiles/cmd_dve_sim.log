@@ -1,0 +1,31 @@
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /run/media/user1/c2s/sriram/singlePortRAM/09_singlePortRAM_Post_Synthesis_GLS/01_zero_delay_sim/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD0
+set ::dve_fid VPD0
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpKYFDOu
+synUtils::sendTool -active {_icl_start_rpc -version "T-2022.06-SP2-5_Full64" -sync_file /tmp/vcs_dve_rpc.user1.232386}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.user1.232386}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+synopsys::dump -add {ram_tb_with_pad.ADDRWIDTH ram_tb_with_pad.DATAWIDTH ram_tb_with_pad.SIZE ram_tb_with_pad.addr ram_tb_with_pad.clk ram_tb_with_pad.cs ram_tb_with_pad.data ram_tb_with_pad.i ram_tb_with_pad.oe ram_tb_with_pad.tb_data ram_tb_with_pad.we } -aggregates  -fid VPD0
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit

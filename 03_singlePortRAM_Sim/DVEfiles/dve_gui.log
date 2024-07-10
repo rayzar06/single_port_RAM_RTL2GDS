@@ -1,0 +1,18 @@
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP2-5_Full64; Runtime version T-2022.06-SP2-5_Full64;  Jul  8 12:07 2024
+Checkout succeeded: VCS-BASE-RUNTIME/8F2871AD7ADC4E3BB208
+	License file: 27020@14.139.1.126
+	License Server: 27020@14.139.1.126
+[SCL] 07/08/2024 12:07:32 Checking status for feature VCS-BASE-RUNTIME
+[SCL] 07/08/2024 12:07:32 PID:153340 Client:c2s Server:27020@14.139.1.126 Checkout succeeded VCS-BASE-RUNTIME 2022.06 from VCS-3-Apex-Base-Runtime-Pkg
+VCD+ Writer T-2022.06-SP2-5_Full64 Copyright (c) 1991-2022 by Synopsys Inc.
+The file '/run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim/inter.vpd' was opened successfully.
+$finish called from file "ram_tb.v", line 69.
+$finish at simulation time                  662
+Simulation complete, time is 662.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 662
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Mon Jul  8 12:08:41 2024
+[SCL] 07/08/2024 12:08:41 PID:153340 Client:c2s checkin (null) 

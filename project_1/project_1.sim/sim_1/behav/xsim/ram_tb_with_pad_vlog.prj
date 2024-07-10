@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../pc3b01.v" \
+"../../../../pc3c01.v" \
+"../../../../pc3d01.v" \
+"../../../../ram_mod.v" \
+"../../../../single_port_ram.v" \
+"../../../../ram_tb_with_pad.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
