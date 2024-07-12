@@ -1,0 +1,71 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Fri Jul 12 14:37:14 2024                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.18-s099_1 (64bit) 07/18/2023 13:03 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.18-s099_1 NR230707-1955/21_18-UB (database version 18.20.605) {superthreading v2.17}
+#@(#)CDS: AAE 21.18-s017 (64bit) 07/18/2023 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.18-s022_1 () Jul 11 2023 23:10:24 ( )
+#@(#)CDS: SYNTECH 21.18-s010_1 () Jul  5 2023 06:32:03 ( )
+#@(#)CDS: CPE v21.18-s053
+#@(#)CDS: IQuantus/TQuantus 21.1.1-s966 (64bit) Wed Mar 8 10:22:20 PST 2023 (Linux 3.10.0-693.el7.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set init_gnd_net {VSS_CORE
+VSSO_CORE}
+set init_lef_file {../../SCLPDK/scl_pdk/stdlib/fs120/tech_data/lef/tsl180l4.lef ../../SCLPDK/scl_pdk/stdlib/fs120/lef/tsl18fs120_scl.lef ../../SCLPDK/scl_pdk/iolib/cio150/cds/lef/tsl18cio150_4lm.lef}
+set init_design_settop 0
+set init_verilog single_port_ram_incremental.v
+set init_mmmc_file ram.view
+set init_io_file ram.io
+set init_pwr_net {VDD_CORE VDDO_CORE}
+init_design
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site CoreSite -d 1940.0 1940.0 125 125 125 125
+uiSetTool select
+getIoFlowFlag
+fit
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site CoreSite -d 1940 1940 215 215 215 215
+uiSetTool select
+getIoFlowFlag
+fit
+gui_select -rect {1822.52500 747.90400 1794.77300 1287.52700}
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site CoreSite -d 1500 1500 215.04 215.04 215.04 215.04
+uiSetTool select
+getIoFlowFlag
+fit
+setIoFlowFlag 0
+floorPlan -site CoreSite -d 1600 1600 215.04 215.04 215.04 215.04
+uiSetTool select
+getIoFlowFlag
+fit
+setIoFlowFlag 0
+floorPlan -site CoreSite -d 1650 1650 215.04 215.04 215.04 215.04
+uiSetTool select
+getIoFlowFlag
+fit
+setIoFlowFlag 0
+floorPlan -site CoreSite -d 1649.76 1649.76 215.04 215.04 215.04 215.04
+uiSetTool select
+getIoFlowFlag
+fit
+addIoFiller -cell pfeed30000 pfeed10000 pfeed02000 pfeed01000 pfeed00540
+addIoFiller -cell pfeed30000 pfeed10000 pfeed02000 pfeed01000 pfeed00540 pfeed00040 pfeed00010 -prefix FILLER -side n
+addIoFiller -cell pfeed30000 pfeed10000 pfeed02000 pfeed01000 pfeed00540 pfeed00040 pfeed00010 -prefix FILLER -side n
+addIoFiller -cell pfeed30000 pfeed10000 pfeed02000 pfeed01000 pfeed00540 pfeed00040 pfeed00010 -prefix FILLER -side s
+addIoFiller -cell pfeed30000 pfeed10000 pfeed02000 pfeed01000 pfeed00540 pfeed00040 pfeed00010 -prefix FILLER -side w
+addIoFiller -cell pfeed30000 pfeed10000 pfeed02000 pfeed01000 pfeed00540 pfeed00040 pfeed00010 -prefix FILLER -side e
+zoomBox -206.28400 -398.57100 2178.60400 1736.41300
+zoomBox -226.97400 -770.43300 2578.77700 1741.31300
+saveDesign FloorPlanning/single_port_ram_fp_filler.enc
+fit

@@ -1,0 +1,464 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 01/30/2024 20:01 (cpgbld02) $
+          : sub-version  IC6.1.8-64b.500.35 
+Started at: 12-Jul-2024  16:29:01
+User Name : user1
+Host Name : c2s
+Directory : /run/media/user1/c2s/sriram/singlePortRAM/19_singlePortRam_PhysicalVerification
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+ram/nd04d1/layout               0        0       14       19     0      0         9      0             0      0     0     0       0       
+ram/pfeed01000/layout           0        0       0        254    0      0         0      0             0      0     0     0       0       
+ram/nd02d0/layout               0        0       12       14     0      0         7      0             0      0     0     0       0       
+ram/subil_padmetal/layout       146      0       0        8      0      0         0      0             0      0     0     0       0       
+ram/subil_m_via5/layout         0        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/pfeed00010/layout           0        0       0        35     0      0         0      0             0      0     0     0       0       
+ram/subil_pnbuff_ESD22/layout   8        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_pngatering22/layout   0        0       7        154    0      0         0      0             0      0     0     0       0       
+ram/subil_pnclkbuff/layout      8        0       2        1      0      0         0      0             0      0     0     0       0       
+ram/subil_pngatering/layout     0        0       7        155    0      0         0      0             0      0     0     0       0       
+ram/subil_pp18oencntl1x/layout  191      0       19       253    0      0         0      0             0      0     0     0       0       
+ram/pvdi/layout                 9        0       0        3      0      0         40     0             0      0     0     0       0       
+ram/subil_ppgate2buffpower_0di_ESD22/layout                     2        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/pfeed30000/layout           0        0       8        465    0      0         0      0             0      0     0     0       0       
+ram/subil_pviblockcell/layout   0        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_powerbaseconvsso_ESD/layout                           37       0       4        38     0      0         0      0             0      0     0     0       0       
+ram/pfeed10000/layout           0        0       5        468    0      0         0      0             0      0     0     0       0       
+ram/subil_m_via2_545/layout     0        0       0        2      0      0         0      0             0      0     0     0       0       
+ram/single_port_ram_VIA9/layout 0        0       0        50     0      0         0      0             0      0     0     0       0       
+ram/an02d1/layout               0        0       14       17     0      0         7      0             0      0     0     0       0       
+ram/subil_pngatebuff_ESD22/layout                               0        0       3        428    0      0         0      0             0      0     0     0       0       
+ram/subil_pad/layout            2        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/aoi22d1/layout              0        0       17       19     0      0         9      0             0      0     0     0       0       
+ram/buffd1/layout               0        0       12       15     0      0         6      0             0      0     0     0       0       
+ram/subil_powerbasecon_ESD/layout                               38       0       4        39     0      0         0      0             0      0     0     0       0       
+ram/pc3c01/layout               6        0       0        1      0      0         40     0             0      0     0     0       0       
+ram/via12$$44654636/layout      0        0       0        3      0      0         0      0             0      0     0     0       0       
+ram/inv0d0/layout               0        0       11       12     0      0         6      0             0      0     0     0       0       
+ram/subil_vddring/layout        210      0       7        2      0      0         0      0             0      0     0     0       0       
+ram/subil_preside/layout        298      0       0        14     0      0         0      0             0      0     0     0       0       
+ram/M3_M2$$46621740/layout      0        0       0        27     0      0         0      0             0      0     0     0       0       
+ram/subil_pngate2buff_ESD22/layout                              2        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_powermetalring_ESD2/layout                            7161     0       5        79     0      0         0      0             0      0     0     0       0       
+ram/subil_m_via_546/layout      0        0       0        2      0      0         0      0             0      0     0     0       0       
+ram/subil_n100/layout           36       0       1        4      0      0         0      0             0      0     0     0       0       
+ram/VCELLA23/layout             2        0       0        0      0      0         0      0             0      0     0     0       0       
+ram/subil_pnbuff_ESD122/layout  8        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_ppgate2bufftop/layout 0        0       4        425    0      0         0      0             0      0     0     0       0       
+ram/V2/layout                   0        0       0        3      0      0         0      0             0      0     0     0       0       
+ram/M2_M1$$44656684/layout      0        0       0        10     0      0         0      0             0      0     0     0       0       
+ram/subil_presistorpower/layout 4        0       0        9      0      0         0      0             0      0     0     0       0       
+ram/feedth/layout               0        0       0        8      0      0         4      0             0      0     0     0       0       
+ram/subil_pvblockcell/layout    0        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_pngate2buff_ESD1/layout                               2        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_pdblockcell/layout    12       0       3        8      0      0         0      0             0      0     0     0       0       
+ram/subil_pngatering_ESD22/layout                               0        0       7        147    0      0         0      0             0      0     0     0       0       
+ram/single_port_ram_VIA0/layout 0        0       0        2306   0      0         0      0             0      0     0     0       0       
+ram/subil_powerbasevsso_ESD/layout                              195      0       0        3      0      0         0      0             0      0     0     0       0       
+ram/subil_ppbuff/layout         248      0       0        2      0      0         0      0             0      0     0     0       0       
+ram/subil_pv0icon_ESD/layout    2633     0       5        167    0      0         0      0             0      0     0     0       0       
+ram/subil_pngatebuff/layout     0        0       3        567    0      0         0      0             0      0     0     0       0       
+ram/single_port_ram_VIA5/layout 0        0       0        3122   0      0         0      0             0      0     0     0       0       
+ram/subil_ppbuffpower_0di_ESD22/layout                          8        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_m_via3/layout         0        0       0        2      0      0         0      0             0      0     0     0       0       
+ram/subil_ppgate2buffpower/layout                               2        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/or02d1/layout               0        0       15       16     0      0         7      0             0      0     0     0       0       
+ram/subil_pp18clkdrive/layout   3606     0       9        16     0      0         0      0             0      0     0     0       0       
+ram/nr02d1/layout               0        0       13       13     0      0         7      0             0      0     0     0       0       
+ram/M3_M2$$44665900/layout      0        0       0        4      0      0         0      0             0      0     0     0       0       
+ram/subil_pcd21con/layout       27       0       4        12     0      0         0      0             0      0     0     0       0       
+ram/subil_pp18esd/layout        215      0       11       49     0      0         0      0             0      0     0     0       0       
+ram/subil_midconer2/layout      0        0       34       439    0      0         0      0             0      0     0     0       0       
+ram/subil_pngatebuff_ESD122/layout                              0        0       3        563    0      0         0      0             0      0     0     0       0       
+ram/subil_ppolyres/layout       28       0       0        7      0      0         0      0             0      0     0     0       0       
+ram/single_port_ram_VIA6/layout 0        0       0        146    0      0         0      0             0      0     0     0       0       
+ram/subil_ppgatebuffpower_0di_ESD22/layout                      0        0       2        183    0      0         0      0             0      0     0     0       0       
+ram/nd02d1/layout               0        0       12       14     0      0         7      0             0      0     0     0       0       
+ram/nd12d1/layout               0        0       14       17     0      0         7      0             0      0     0     0       0       
+ram/subil_levelshifti/layout    74       0       19       188    0      0         0      0             0      0     0     0       0       
+ram/subil_pngate2buff_ESD/layout                                2        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/V2_cross/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+ram/pc3d01/layout               6        0       0        2      0      0         41     0             0      0     0     0       0       
+ram/V3/layout                   0        0       0        3      0      0         0      0             0      0     0     0       0       
+ram/subil_pp18esdinp/layout     307      0       15       83     0      0         0      0             0      0     0     0       0       
+ram/subil_powerbaseconvsso_ESD1/layout                          33       0       5        38     0      0         0      0             0      0     0     0       0       
+ram/subil_vddcell/layout        9        0       0        2      0      0         0      0             0      0     0     0       0       
+ram/subil_pngate2buff_ESD122/layout                             2        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/single_port_ram_VIA1/layout 0        0       0        492    0      0         0      0             0      0     0     0       0       
+ram/subil_clk1x/layout          3631     0       3        30     0      0         0      0             0      0     0     0       0       
+ram/subil_pdiodepower/layout    387      0       4        37     0      0         0      0             0      0     0     0       0       
+ram/subil_clkpowermetal/layout  18365    0       2        19     0      0         0      0             0      0     0     0       0       
+ram/subil_pnbuff_ESD/layout     8        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/mx02d1/layout               0        0       16       24     0      0         8      0             0      0     0     0       0       
+ram/V3_TOS_S/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+ram/subil_m_ccp/layout          1        0       0        2      0      0         0      0             0      0     0     0       0       
+ram/single_port_ram_VIA7/layout 0        0       0        1647   0      0         0      0             0      0     0     0       0       
+ram/pfeed00540/layout           0        0       0        254    0      0         0      0             0      0     0     0       0       
+ram/subil_powerbase_ESD1/layout 99       0       0        2      0      0         0      0             0      0     0     0       0       
+ram/pv0a/layout                 9        0       0        2      0      0         37     0             0      0     0     0       0       
+ram/subil_levelshift/layout     83       0       15       169    0      0         0      0             0      0     0     0       0       
+ram/subil_clkppgatebotring/layout                               44       0       5        693    0      0         0      0             0      0     0     0       0       
+ram/subil_powerbasevsso/layout  203      0       2        1      0      0         0      0             0      0     0     0       0       
+ram/subil_p18vdd/layout         50       0       4        12     0      0         0      0             0      0     0     0       0       
+ram/M1_PO$$46625836/layout      0        0       0        4      0      0         0      0             0      0     0     0       0       
+ram/subil_pcappower/layout      175      0       0        7      0      0         0      0             0      0     0     0       0       
+ram/subil_powermetalring_ESD1/layout                            7085     0       4        80     0      0         0      0             0      0     0     0       0       
+ram/subil_4via_ESD/layout       45       0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_pcb01con/layout       16       0       4        29     0      0         0      0             0      0     0     0       0       
+ram/subil_clkblockcell/layout   46       0       0        5      0      0         0      0             0      0     0     0       0       
+ram/subil_nwellres/layout       4        0       0        9      0      0         0      0             0      0     0     0       0       
+ram/via12$$44653612/layout      0        0       0        3      0      0         0      0             0      0     0     0       0       
+ram/subil_powermetalring_ESD/layout                             6885     0       3        81     0      0         0      0             0      0     0     0       0       
+ram/V3_cross/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+ram/pfeed00040/layout           4        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/aor211d1/layout             0        0       17       26     0      0         9      0             0      0     0     0       0       
+ram/subil_pnclkbasebuff/layout  242      0       0        65     0      0         0      0             0      0     0     0       0       
+ram/subil_p32vdd/layout         72       0       4        4      0      0         0      0             0      0     0     0       0       
+ram/subil_ppgatebotringpower_0di/layout                         43       0       6        194    0      0         0      0             0      0     0     0       0       
+ram/subil_pp18input01/layout    231      0       13       98     0      0         0      0             0      0     0     0       0       
+ram/VCELLA48/layout             6        0       0        0      0      0         0      0             0      0     0     0       0       
+ram/subil_pddrive01/layout      17       0       9        6      0      0         0      0             0      0     0     0       0       
+ram/M2_M1$$46623788/layout      0        0       0        8      0      0         0      0             0      0     0     0       0       
+ram/subil_m_via/layout          0        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/pv0i/layout                 9        0       0        2      0      0         40     0             0      0     0     0       0       
+ram/subil_vddcell1/layout       8        0       1        2      0      0         0      0             0      0     0     0       0       
+ram/subil_m_via4/layout         0        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_powerbase_1/layout    1511     0       3        9      0      0         0      0             0      0     0     0       0       
+ram/subil_clkppbasebuff/layout  6        0       0        64     0      0         0      0             0      0     0     0       0       
+ram/dl03d1/layout               0        0       19       20     0      0         6      0             0      0     0     0       0       
+ram/single_port_ram_VIA2/layout 0        0       0        914    0      0         0      0             0      0     0     0       0       
+ram/cnwnmos_thn2t$$44657708/layout                              0        0       1        69     0      0         0      0             0      0     0     0       0       
+ram/subil_ppgate2buffend/layout 0        0       4        434    0      0         0      0             0      0     0     0       0       
+ram/subil_dio46/layout          3        0       1        4      0      0         0      0             0      0     0     0       0       
+ram/pfeed02000/layout           0        0       0        473    0      0         0      0             0      0     0     0       0       
+ram/subil_pp18clkinout/layout   2        0       0        8      0      0         0      0             0      0     0     0       0       
+ram/M2_M1$$44664876/layout      0        0       0        4      0      0         0      0             0      0     0     0       0       
+ram/subil_ppgate2buff/layout    2        0       0        0      0      0         0      0             0      0     0     0       0       
+ram/subil_powerbase_ESD2/layout 152      0       0        3      0      0         0      0             0      0     0     0       0       
+ram/single_port_ram_VIA8/layout 0        0       0        3122   0      0         0      0             0      0     0     0       0       
+ram/subil_pbbuffcon/layout      531      0       2        8      0      0         0      0             0      0     0     0       0       
+ram/subil_psegment/layout       3285     0       0        1099   0      0         0      0             0      0     0     0       0       
+ram/subil_m_cc/layout           0        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/VCELLA42/layout             4        0       0        0      0      0         0      0             0      0     0     0       0       
+ram/subil_pp18bulkdrv/layout    63       0       4        68     0      0         0      0             0      0     0     0       0       
+ram/subil_m_via2/layout         0        0       0        2      0      0         0      0             0      0     0     0       0       
+ram/subil_pbdrive01/layout      21       0       10       4      0      0         0      0             0      0     0     0       0       
+ram/subil_blockcell/layout      19       0       9        8      0      0         0      0             0      0     0     0       0       
+ram/M3_M2$$46622764/layout      0        0       0        50     0      0         0      0             0      0     0     0       0       
+ram/subil_pngatebuff_ESD1/layout                                0        0       3        564    0      0         0      0             0      0     0     0       0       
+ram/subil_powermetalring/layout 7085     0       3        81     0      0         0      0             0      0     0     0       0       
+ram/VL/layout                   0        0       0        3      0      0         0      0             0      0     0     0       0       
+ram/subil_pdwellbias/layout     55       0       2        9      0      0         0      0             0      0     0     0       0       
+ram/subil_pvdicon_ESD/layout    2613     0       3        134    0      0         0      0             0      0     0     0       0       
+ram/subil_ppbuffpower/layout    8        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_ppwellbias/layout     54       0       8        14     0      0         0      0             0      0     0     0       0       
+ram/subil_p18vdd32/layout       72       0       2        6      0      0         0      0             0      0     0     0       0       
+ram/subil_pvdacon_ESD/layout    4261     0       3        128    0      0         0      0             0      0     0     0       0       
+ram/subil_pp18clkout/layout     300      0       4        287    0      0         0      0             0      0     0     0       0       
+ram/feedth9/layout              0        0       6        18     0      0         4      0             0      0     0     0       0       
+ram/rpmpoly2t$$44660780/layout  0        0       0        14     0      0         0      0             0      0     0     0       0       
+ram/pc3b01/layout               3        0       0        2      0      0         45     0             0      0     0     0       0       
+ram/subil_cornerarray/layout    1700     0       0        3      0      0         0      0             0      0     0     0       0       
+ram/subil_ppgateringpower_0di/layout                            0        0       3        380    0      0         0      0             0      0     0     0       0       
+ram/subil_powermetal/layout     21738    0       2        14     0      0         0      0             0      0     0     0       0       
+ram/dfnrq1/layout               0        0       33       47     0      0         9      0             0      0     0     0       0       
+ram/subil_via2array/layout      2312     0       0        2      0      0         0      0             0      0     0     0       0       
+ram/subil_ppgatebuffpower/layout                                0        0       2        184    0      0         0      0             0      0     0     0       0       
+ram/subil_pnbuff/layout         14       0       0        1      0      0         0      0             0      0     0     0       0       
+ram/subil_ppgatebotringpower/layout                             43       0       6        195    0      0         0      0             0      0     0     0       0       
+ram/single_port_ram_VIA3/layout 0        0       0        914    0      0         0      0             0      0     0     0       0       
+ram/subil_pnbuff_ESD1/layout    8        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/buffd3/layout               0        0       11       18     0      0         6      0             0      0     0     0       0       
+ram/subil_clkpngatering/layout  650      0       7        152    0      0         0      0             0      0     0     0       0       
+ram/subil_pv0acon_ESD/layout    3462     0       1        240    0      0         0      0             0      0     0     0       0       
+ram/subil_ppgatering/layout     2        0       7        294    0      0         0      0             0      0     0     0       0       
+ram/subil_ppdrive/layout        636      0       12       34     0      0         0      0             0      0     0     0       0       
+ram/subil_clkppgatering/layout  0        0       4        732    0      0         0      0             0      0     0     0       0       
+ram/M2_M1$$46617644/layout      0        0       0        3      0      0         0      0             0      0     0     0       0       
+ram/subil_pngate2buff/layout    2        0       0        1      0      0         0      0             0      0     0     0       0       
+ram/M3_M2$$44666924/layout      0        0       0        6      0      0         0      0             0      0     0     0       0       
+ram/subil_pp18clkin/layout      122      0       3        75     0      0         0      0             0      0     0     0       0       
+ram/subil_ppclkbuff/layout      52       0       2        3      0      0         0      0             0      0     0     0       0       
+ram/subil_iorule/layout         0        0       0        3      0      0         0      0             0      0     0     0       0       
+ram/VCELLA49/layout             2        0       0        0      0      0         0      0             0      0     0     0       0       
+ram/single_port_ram_VIA4/layout 0        0       0        3122   0      0         0      0             0      0     0     0       0       
+ram/pvda/layout                 9        0       0        3      0      0         37     0             0      0     0     0       0       
+ram/subil_pngatebuff_ESD/layout 0        0       3        552    0      0         0      0             0      0     0     0       0       
+ram/single_port_ram/layout      22588    4       0        678    5078   0         597    0             0      0     0     0       0       
+ram/subil_ppgatebuff/layout     0        0       4        308    0      0         0      0             0      0     0     0       0       
+ram/subil_iorulepower/layout    0        0       0        4      0      0         0      0             0      0     0     0       0       
+ram/subil_via1array/layout      3570     0       0        2      0      0         0      0             0      0     0     0       0       
+ram/subil_ppgatebotring/layout  47       0       6        171    0      0         0      0             0      0     0     0       0       
+ram/subil_ppgateringpower/layout                                0        0       3        381    0      0         0      0             0      0     0     0       0       
+ram/pfrelr/layout               2        0       0        1      0      0         28     0             0      0     0     0       0       
+ram/VCELLA31/layout             2        0       0        0      0      0         0      0             0      0     0     0       0       
+ram/M2_M1$$44663852/layout      0        0       0        5      0      0         0      0             0      0     0     0       0       
+ram/feedth3/layout              0        0       6        10     0      0         4      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+ram/nd04d1/layout               0        0          0          0          0          0     0        0         0         0        
+ram/pfeed01000/layout           0        0          0          0          0          0     0        0         0         0        
+ram/nd02d0/layout               0        0          0          0          0          0     0        0         0         0        
+ram/subil_padmetal/layout       0        0          0          0          0          0     0        0         0         0        
+ram/subil_m_via5/layout         0        0          0          0          0          0     0        0         0         0        
+ram/pfeed00010/layout           0        0          0          0          0          0     0        0         0         0        
+ram/subil_pnbuff_ESD22/layout   0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngatering22/layout   0        0          0          0          0          0     0        0         0         0        
+ram/subil_pnclkbuff/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngatering/layout     0        0          0          0          0          0     0        0         0         0        
+ram/subil_pp18oencntl1x/layout  0        0          0          0          0          0     0        0         0         0        
+ram/pvdi/layout                 0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgate2buffpower_0di_ESD22/layout                     0        0          0          0          0          0     0        0         0         0        
+ram/pfeed30000/layout           0        0          0          0          0          0     0        0         0         0        
+ram/subil_pviblockcell/layout   0        0          0          0          0          0     0        0         0         0        
+ram/subil_powerbaseconvsso_ESD/layout                           0        0          0          0          0          0     0        0         0         0        
+ram/pfeed10000/layout           0        0          0          0          0          0     0        0         0         0        
+ram/subil_m_via2_545/layout     0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram_VIA9/layout 0        0          0          0          0          0     0        0         0         0        
+ram/an02d1/layout               0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngatebuff_ESD22/layout                               0        0          0          0          0          0     0        0         0         0        
+ram/subil_pad/layout            0        0          0          0          0          0     0        0         0         0        
+ram/aoi22d1/layout              0        0          0          0          0          0     0        0         0         0        
+ram/buffd1/layout               0        0          0          0          0          0     0        0         0         0        
+ram/subil_powerbasecon_ESD/layout                               0        0          0          0          0          0     0        0         0         0        
+ram/pc3c01/layout               0        0          0          0          0          0     0        0         0         0        
+ram/via12$$44654636/layout      0        0          0          0          0          0     0        0         0         0        
+ram/inv0d0/layout               0        0          0          0          0          0     0        0         0         0        
+ram/subil_vddring/layout        0        0          0          0          0          0     0        0         0         0        
+ram/subil_preside/layout        0        0          0          0          0          0     0        0         0         0        
+ram/M3_M2$$46621740/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngate2buff_ESD22/layout                              0        0          0          0          0          0     0        0         0         0        
+ram/subil_powermetalring_ESD2/layout                            0        0          0          0          0          0     0        0         0         0        
+ram/subil_m_via_546/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_n100/layout           0        0          0          0          0          0     0        0         0         0        
+ram/VCELLA23/layout             0        0          0          0          0          0     0        0         0         0        
+ram/subil_pnbuff_ESD122/layout  0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgate2bufftop/layout 0        0          0          0          0          0     0        0         0         0        
+ram/V2/layout                   0        0          0          0          0          0     0        0         0         0        
+ram/M2_M1$$44656684/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_presistorpower/layout 0        0          0          0          0          0     0        0         0         0        
+ram/feedth/layout               0        0          0          0          0          0     0        0         0         0        
+ram/subil_pvblockcell/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngate2buff_ESD1/layout                               0        0          0          0          0          0     0        0         0         0        
+ram/subil_pdblockcell/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngatering_ESD22/layout                               0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram_VIA0/layout 0        0          0          0          0          0     0        0         0         0        
+ram/subil_powerbasevsso_ESD/layout                              0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppbuff/layout         0        0          0          0          0          0     0        0         0         0        
+ram/subil_pv0icon_ESD/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngatebuff/layout     0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram_VIA5/layout 0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppbuffpower_0di_ESD22/layout                          0        0          0          0          0          0     0        0         0         0        
+ram/subil_m_via3/layout         0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgate2buffpower/layout                               0        0          0          0          0          0     0        0         0         0        
+ram/or02d1/layout               0        0          0          0          0          0     0        0         0         0        
+ram/subil_pp18clkdrive/layout   0        0          0          0          0          0     0        0         0         0        
+ram/nr02d1/layout               0        0          0          0          0          0     0        0         0         0        
+ram/M3_M2$$44665900/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_pcd21con/layout       0        0          0          0          0          0     0        0         0         0        
+ram/subil_pp18esd/layout        0        0          0          0          0          0     0        0         0         0        
+ram/subil_midconer2/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngatebuff_ESD122/layout                              0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppolyres/layout       0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram_VIA6/layout 0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgatebuffpower_0di_ESD22/layout                      0        0          0          0          0          0     0        0         0         0        
+ram/nd02d1/layout               0        0          0          0          0          0     0        0         0         0        
+ram/nd12d1/layout               0        0          0          0          0          0     0        0         0         0        
+ram/subil_levelshifti/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngate2buff_ESD/layout                                0        0          0          0          0          0     0        0         0         0        
+ram/V2_cross/layout             0        0          0          0          0          0     0        0         0         0        
+ram/pc3d01/layout               0        0          0          0          0          0     0        0         0         0        
+ram/V3/layout                   0        0          0          0          0          0     0        0         0         0        
+ram/subil_pp18esdinp/layout     0        0          0          0          0          0     0        0         0         0        
+ram/subil_powerbaseconvsso_ESD1/layout                          0        0          0          0          0          0     0        0         0         0        
+ram/subil_vddcell/layout        0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngate2buff_ESD122/layout                             0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram_VIA1/layout 0        0          0          0          0          0     0        0         0         0        
+ram/subil_clk1x/layout          0        0          0          0          0          0     0        0         0         0        
+ram/subil_pdiodepower/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_clkpowermetal/layout  0        0          0          0          0          0     0        0         0         0        
+ram/subil_pnbuff_ESD/layout     0        0          0          0          0          0     0        0         0         0        
+ram/mx02d1/layout               0        0          0          0          0          0     0        0         0         0        
+ram/V3_TOS_S/layout             0        0          0          0          0          0     0        0         0         0        
+ram/subil_m_ccp/layout          0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram_VIA7/layout 0        0          0          0          0          0     0        0         0         0        
+ram/pfeed00540/layout           0        0          0          0          0          0     0        0         0         0        
+ram/subil_powerbase_ESD1/layout 0        0          0          0          0          0     0        0         0         0        
+ram/pv0a/layout                 0        0          0          0          0          0     0        0         0         0        
+ram/subil_levelshift/layout     0        0          0          0          0          0     0        0         0         0        
+ram/subil_clkppgatebotring/layout                               0        0          0          0          0          0     0        0         0         0        
+ram/subil_powerbasevsso/layout  0        0          0          0          0          0     0        0         0         0        
+ram/subil_p18vdd/layout         0        0          0          0          0          0     0        0         0         0        
+ram/M1_PO$$46625836/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_pcappower/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_powermetalring_ESD1/layout                            0        0          0          0          0          0     0        0         0         0        
+ram/subil_4via_ESD/layout       0        0          0          0          0          0     0        0         0         0        
+ram/subil_pcb01con/layout       0        0          0          0          0          0     0        0         0         0        
+ram/subil_clkblockcell/layout   0        0          0          0          0          0     0        0         0         0        
+ram/subil_nwellres/layout       0        0          0          0          0          0     0        0         0         0        
+ram/via12$$44653612/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_powermetalring_ESD/layout                             0        0          0          0          0          0     0        0         0         0        
+ram/V3_cross/layout             0        0          0          0          0          0     0        0         0         0        
+ram/pfeed00040/layout           0        0          0          0          0          0     0        0         0         0        
+ram/aor211d1/layout             0        0          0          0          0          0     0        0         0         0        
+ram/subil_pnclkbasebuff/layout  0        0          0          0          0          0     0        0         0         0        
+ram/subil_p32vdd/layout         0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgatebotringpower_0di/layout                         0        0          0          0          0          0     0        0         0         0        
+ram/subil_pp18input01/layout    0        0          0          0          0          0     0        0         0         0        
+ram/VCELLA48/layout             0        0          0          0          0          0     0        0         0         0        
+ram/subil_pddrive01/layout      0        0          0          0          0          0     0        0         0         0        
+ram/M2_M1$$46623788/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_m_via/layout          0        0          0          0          0          0     0        0         0         0        
+ram/pv0i/layout                 0        0          0          0          0          0     0        0         0         0        
+ram/subil_vddcell1/layout       0        0          0          0          0          0     0        0         0         0        
+ram/subil_m_via4/layout         0        0          0          0          0          0     0        0         0         0        
+ram/subil_powerbase_1/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_clkppbasebuff/layout  0        0          0          0          0          0     0        0         0         0        
+ram/dl03d1/layout               0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram_VIA2/layout 0        0          0          0          0          0     0        0         0         0        
+ram/cnwnmos_thn2t$$44657708/layout                              0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgate2buffend/layout 0        0          0          0          0          0     0        0         0         0        
+ram/subil_dio46/layout          0        0          0          0          0          0     0        0         0         0        
+ram/pfeed02000/layout           0        0          0          0          0          0     0        0         0         0        
+ram/subil_pp18clkinout/layout   0        0          0          0          0          0     0        0         0         0        
+ram/M2_M1$$44664876/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgate2buff/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_powerbase_ESD2/layout 0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram_VIA8/layout 0        0          0          0          0          0     0        0         0         0        
+ram/subil_pbbuffcon/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_psegment/layout       0        0          0          0          0          0     0        0         0         0        
+ram/subil_m_cc/layout           0        0          0          0          0          0     0        0         0         0        
+ram/VCELLA42/layout             0        0          0          0          0          0     0        0         0         0        
+ram/subil_pp18bulkdrv/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_m_via2/layout         0        0          0          0          0          0     0        0         0         0        
+ram/subil_pbdrive01/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_blockcell/layout      0        0          0          0          0          0     0        0         0         0        
+ram/M3_M2$$46622764/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngatebuff_ESD1/layout                                0        0          0          0          0          0     0        0         0         0        
+ram/subil_powermetalring/layout 0        0          0          0          0          0     0        0         0         0        
+ram/VL/layout                   0        0          0          0          0          0     0        0         0         0        
+ram/subil_pdwellbias/layout     0        0          0          0          0          0     0        0         0         0        
+ram/subil_pvdicon_ESD/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppbuffpower/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppwellbias/layout     0        0          0          0          0          0     0        0         0         0        
+ram/subil_p18vdd32/layout       0        0          0          0          0          0     0        0         0         0        
+ram/subil_pvdacon_ESD/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_pp18clkout/layout     0        0          0          0          0          0     0        0         0         0        
+ram/feedth9/layout              0        0          0          0          0          0     0        0         0         0        
+ram/rpmpoly2t$$44660780/layout  0        0          0          0          0          0     0        0         0         0        
+ram/pc3b01/layout               0        0          0          0          0          0     0        0         0         0        
+ram/subil_cornerarray/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgateringpower_0di/layout                            0        0          0          0          0          0     0        0         0         0        
+ram/subil_powermetal/layout     0        0          0          0          0          0     0        0         0         0        
+ram/dfnrq1/layout               0        0          0          0          0          0     0        0         0         0        
+ram/subil_via2array/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgatebuffpower/layout                                0        0          0          0          0          0     0        0         0         0        
+ram/subil_pnbuff/layout         0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgatebotringpower/layout                             0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram_VIA3/layout 0        0          0          0          0          0     0        0         0         0        
+ram/subil_pnbuff_ESD1/layout    0        0          0          0          0          0     0        0         0         0        
+ram/buffd3/layout               0        0          0          0          0          0     0        0         0         0        
+ram/subil_clkpngatering/layout  0        0          0          0          0          0     0        0         0         0        
+ram/subil_pv0acon_ESD/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgatering/layout     0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppdrive/layout        0        0          0          0          0          0     0        0         0         0        
+ram/subil_clkppgatering/layout  0        0          0          0          0          0     0        0         0         0        
+ram/M2_M1$$46617644/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngate2buff/layout    0        0          0          0          0          0     0        0         0         0        
+ram/M3_M2$$44666924/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_pp18clkin/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppclkbuff/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_iorule/layout         0        0          0          0          0          0     0        0         0         0        
+ram/VCELLA49/layout             0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram_VIA4/layout 0        0          0          0          0          0     0        0         0         0        
+ram/pvda/layout                 0        0          0          0          0          0     0        0         0         0        
+ram/subil_pngatebuff_ESD/layout 0        0          0          0          0          0     0        0         0         0        
+ram/single_port_ram/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgatebuff/layout     0        0          0          0          0          0     0        0         0         0        
+ram/subil_iorulepower/layout    0        0          0          0          0          0     0        0         0         0        
+ram/subil_via1array/layout      0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgatebotring/layout  0        0          0          0          0          0     0        0         0         0        
+ram/subil_ppgateringpower/layout                                0        0          0          0          0          0     0        0         0         0        
+ram/pfrelr/layout               0        0          0          0          0          0     0        0         0         0        
+ram/VCELLA31/layout             0        0          0          0          0          0     0        0         0         0        
+ram/M2_M1$$44663852/layout      0        0          0          0          0          0     0        0         0         0        
+ram/feedth3/layout              0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+XN              drawing         32      0         50       70       0        0        0             0    0   0   0     0      0      
+DEV_AREA        cvs             77      58        0        1        0        0        0             0    0   0   0     0      0      
+TOP_V           drawing         49      0         0        2137     0        0        0             0    0   0   0     0      0      
+WN              drawing         3       0         7        63       0        0        0             0    0   0   0     0      0      
+ACTIVE_noconn   esd             9       50        0        12       0        0        0             0    0   0   0     0      0      
+TOP_M           drawing         50      0         7        112      86       0        0             0    0   0   0     0      0      
+prBoundary      drawing         235     0         0        144      0        0        0             0    0   0   0     0      0      
+TOP_M           label           50      7         0        0        0        116      0             0    0   0   0     0      0      
+WN              vss             3       51        0        8        0        0        0             0    0   0   0     0      0      
+GC              label           8       7         0        0        0        2        0             0    0   0   0     0      0      
+M3              drawing         44      0         39       167      1562     0        0             0    0   0   0     0      0      
+DEV_AREA        esd             77      50        0        4        0        0        0             0    0   0   0     0      0      
+M3              label           44      7         0        0        0        205      0             0    0   0   0     0      0      
+XP              drawing         31      0         55       68       0        0        0             0    0   0   0     0      0      
+CS              drawing         34      0         0        8884     0        0        0             0    0   0   0     0      0      
+ACTIVE          drawing         9       0         74       185      0        0        0             0    0   0   0     0      0      
+GC              dummy           8       8         0        1        0        0        0             0    0   0   0     0      0      
+ACTIVE          dummy           9       8         0        1        0        0        0             0    0   0   0     0      0      
+M1              label           40      7         0        0        0        202      0             0    0   0   0     0      0      
+M1              drawing         40      0         209      711      623      0        0             0    0   0   0     0      0      
+PAD             drawing         68      0         0        3        0        0        0             0    0   0   0     0      0      
+DEV_AREA        dio             77      44        0        12       0        0        0             0    0   0   0     0      0      
+M2              label           42      7         0        0        0        502      0             0    0   0   0     0      0      
+GC              drawing         8       0         112      21       0        0        0             0    0   0   0     0      0      
+V2              drawing         41      0         0        8906     0        0        0             0    0   0   0     0      0      
+V3              drawing         43      0         0        9285     0        0        0             0    0   0   0     0      0      
+DEV_AREA        res             77      42        0        4        0        0        0             0    0   0   0     0      0      
+DEV_AREA        cap             77      43        0        1        0        0        0             0    0   0   0     0      0      
+AREA2           drawing         72      0         13       48       0        0        0             0    0   0   0     0      0      
+M2              drawing         42      0         68       503      2807     0        0             0    0   0   0     0      0      
+NS              drawing         88      0         10       2        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		130356
+	Array Instances:		4
+	Polygons:			644
+	Paths:				5078
+	Rectangles:			31353
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			0
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				1027
+	TextDisplay:		0
+	Cells:				187
+Design Libraries: 
+
+DEFINE ram	/run/media/user1/c2s/sriram/singlePortRAM/19_singlePortRam_PhysicalVerification/ram

@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Jul 12 12:06:06 2024
+# Process ID: 1443032
+# Current directory: /run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim
+# Command line: vivado
+# Log file: /run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim/vivado.log
+# Journal file: /run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim/vivado.jou
+# Running On: c2s, OS: Linux, CPU Frequency: 3600.000 MHz, CPU Physical cores: 4, Host memory: 33294 MB
+#-----------------------------------------------------------
+start_gui
+create_project singleportram_vivadosim /run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim/singleportram_vivadosim -part xck24-ubva530-2LV-c
+set_property board_part xilinx.com:k24c:part0:1.0 [current_project]
+add_files -norecurse {/run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim/ram_mod.v /run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim/single_port_ram.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim/ram_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation

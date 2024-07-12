@@ -19,6 +19,10 @@ wire cs ;
 wire we ;
 wire oe ;
 wire clock ;
+wire notOE ;
+wire [DATAWIDTH-1:0] i_data;
+wire [DATAWIDTH-1:0] o_data;
+
 
 //PAD Instantiation
 
@@ -35,16 +39,17 @@ wire clock ;
 	pc3d01 pc3d01_7(.PAD (addr_pad[1]), .CIN (addr[1]));
 	pc3d01 pc3d01_8(.PAD (addr_pad[0]), .CIN (addr[0]));
 
-	pc3b01 pc3b01_1(.I(data[7]),.CIN(data[7]),.OEN(oe_pad),.PAD(data_pad[7]));
-	pc3b01 pc3b01_2(.I(data[6]),.CIN(data[6]),.OEN(oe_pad),.PAD(data_pad[6]));
-	pc3b01 pc3b01_3(.I(data[5]),.CIN(data[5]),.OEN(oe_pad),.PAD(data_pad[5]));
-	pc3b01 pc3b01_4(.I(data[4]),.CIN(data[4]),.OEN(oe_pad),.PAD(data_pad[4]));
-	pc3b01 pc3b01_5(.I(data[3]),.CIN(data[3]),.OEN(oe_pad),.PAD(data_pad[3]));
-	pc3b01 pc3b01_6(.I(data[2]),.CIN(data[2]),.OEN(oe_pad),.PAD(data_pad[2]));
-	pc3b01 pc3b01_7(.I(data[1]),.CIN(data[1]),.OEN(oe_pad),.PAD(data_pad[1]));
-	pc3b01 pc3b01_8(.I(data[0]),.CIN(data[0]),.OEN(oe_pad),.PAD(data_pad[0]));
-	
-	
+	pc3b01 pc3b01_1(.I(o_data[7]),.CIN(i_data[7]),.OEN(notOE),.PAD(data_pad[7]));
+	pc3b01 pc3b01_2(.I(o_data[6]),.CIN(i_data[6]),.OEN(notOE),.PAD(data_pad[6]));
+	pc3b01 pc3b01_3(.I(o_data[5]),.CIN(i_data[5]),.OEN(notOE),.PAD(data_pad[5]));
+	pc3b01 pc3b01_4(.I(o_data[4]),.CIN(i_data[4]),.OEN(notOE),.PAD(data_pad[4]));
+	pc3b01 pc3b01_5(.I(o_data[3]),.CIN(i_data[3]),.OEN(notOE),.PAD(data_pad[3]));
+	pc3b01 pc3b01_6(.I(o_data[2]),.CIN(i_data[2]),.OEN(notOE),.PAD(data_pad[2]));
+	pc3b01 pc3b01_7(.I(o_data[1]),.CIN(i_data[1]),.OEN(notOE),.PAD(data_pad[1]));
+	pc3b01 pc3b01_8(.I(o_data[0]),.CIN(i_data[0]),.OEN(notOE),.PAD(data_pad[0]));
+not(notOE, oe);	
+assign data = notOE ? i_data : o_data ;	
+
 ram_mod # (ADDRWIDTH,DATAWIDTH,SIZE) ram_1 (
     .clk(clk) ,
     .addr(addr) ,

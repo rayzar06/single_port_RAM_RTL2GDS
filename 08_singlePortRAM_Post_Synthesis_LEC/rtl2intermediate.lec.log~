@@ -1,0 +1,176 @@
+                          CONFORMAL (R)
+                   Version 21.20-p100 (23-Oct-2021) (64 bit executable)
+   Copyright (c) Cadence Design Systems, Inc., 1997-2021. All Rights Reserved
+
+
+This program is proprietary and confidential information belonging to
+Cadence Design Systems, Inc., and may be used and disclosed only as authorized
+in a license agreement controlling such use and disclosure.
+
+// Warning: This version is 992 days old. You can download the latest version from http://downloads.cadence.com.
+
+0
+// Command: usage -auto -elapse
+// Command: usage -auto -elapse
+CPU time     : 0.54    seconds
+Elapse time  : 13      seconds
+Memory usage : 102.86  M bytes
+0
+// Command: set_mapping_method -sensitive
+// Command: set_mapping_method -sensitive
+0
+// Command: set_verification_information rtl_fv_map_db
+// Command: set_verification_information rtl_fv_map_db
+// Note: Verification information rtl_fv_map_db does not exist. New directory created.
+// Verification information is set to /run/media/user1/c2s/sriram/singlePortRAM/08_singlePortRAM_Post_Synthesis_LEC/rtl_fv_map_db.
+// Advanced reporting is enabled and the output is written to /run/media/user1/c2s/sriram/singlePortRAM/08_singlePortRAM_Post_Synthesis_LEC/rtl_fv_map_db
+0
+// Command: read_implementation_information fv/single_port_ram -revised fv_map
+// Command: read_implementation_information fv/single_port_ram -revised fv_map
+// Reading implementation information from fv/single_port_ram ...
+================================================================================
+          Information Category                         Count
+--------------------------------------------------------------------------------
+     Sequential instance phase                           136
+       Sequential optimization                             0
+        Sequential duplication                             0
+         Boundary optimization                             0
+            Synthesis equation                             0
+    Combinational loop breaker                             0
+                       Mapping                             0
+================================================================================
+// Note: Read implementation information successfully.
+0
+// Command: set_parallel_option -threads 1,4 -norelease_license
+// Command: set_parallel_option -threads 1,4 -norelease_license
+// Number of threads is set to 1,4.
+0
+// Command: set_compare_options -threads 1,4
+// Command: set_compare_options -threads 1,4
+Set computing threads of compare to 1,4.
+0
+// Command: set env(RC_VERSION)     "21.18-s082_1"
+21.18-s082_1
+// Command: set env(CDN_SYNTH_ROOT) "/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86"
+/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86
+// Command: set CDN_SYNTH_ROOT      "/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86"
+/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86
+// Command: set env(CW_DIR) "/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86/lib/chipware"
+/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86/lib/chipware
+// Command: set CW_DIR      "/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86/lib/chipware"
+/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86/lib/chipware
+// Command: set lec_version_required "21.20249"
+21.20249
+// Command: if { ($lec_version < $lec_version_required) &&
+//              [file exists /run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86/lib/chipware/old_encrypt_sim]} {
+//              set env(CW_DIR_SIM) "/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86/lib/chipware/old_encrypt_sim"
+//              set CW_DIR_SIM      "/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86/lib/chipware/old_encrypt_sim"
+//          } else {
+//              set env(CW_DIR_SIM) "/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86/lib/chipware/sim"
+//              set CW_DIR_SIM      "/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86/lib/chipware/sim"
+//          }
+/run/media/user1/c2s/cadence/install/GENUS211/tools.lnx86/lib/chipware/old_encrypt_sim
+// Command: set_multiplier_implementation boothrca -both
+// Command: set_multiplier_implementation boothrca -both
+0
+// Command: set_undefined_cell black_box -noascend -both
+// Command: set_undefined_cell black_box -noascend -both
+0
+// Command: add_search_path /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/stdlib/fs120/liberty/lib_flow_ss /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/stdlib/fs120/liberty/lib_flow_ff -library -both
+// Command: add_search_path /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/stdlib/fs120/liberty/lib_flow_ss /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/stdlib/fs120/liberty/lib_flow_ff -library -both
+0
+// Command: read_library -liberty -both \
+//              /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/stdlib/fs120/liberty/lib_flow_ss/tsl18fs120_scl_ss.lib \
+//              /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/iolib/cio150/synopsys/2002.05/models/tsl18cio150_max.lib \
+//              /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/stdlib/fs120/liberty/lib_flow_ss/tsl18fs120_scl_ss.lib \
+//              /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/iolib/cio150/synopsys/2002.05/models/tsl18cio150_max.lib
+// Command: read_library -liberty -both /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/stdlib/fs120/liberty/lib_flow_ss/tsl18fs120_scl_ss.lib /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/iolib/cio150/synopsys/2002.05/models/tsl18cio150_max.lib /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/stdlib/fs120/liberty/lib_flow_ss/tsl18fs120_scl_ss.lib /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/iolib/cio150/synopsys/2002.05/models/tsl18cio150_max.lib
+// Parsing file /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/stdlib/fs120/liberty/lib_flow_ss/tsl18fs120_scl_ss.lib ...
+// Parsing file /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/iolib/cio150/synopsys/2002.05/models/tsl18cio150_max.lib ...
+// Parsing file /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/stdlib/fs120/liberty/lib_flow_ss/tsl18fs120_scl_ss.lib ...
+// Parsing file /run/media/user1/c2s/cadence/install/SCLPDK/scl_pdk/iolib/cio150/synopsys/2002.05/models/tsl18cio150_max.lib ...
+// Note: (FIL1.8) File read in multiple times (occurrence:2)
+// Warning: (RTL9.16) Duplicated operating_condition, the second one is ignored (occurrence:2)
+// Warning: (RTL9.17) Cell doesn't have any output pins or all output pins are undriven (blackboxed) (occurrence:4)
+// Warning: (RTL9.25) Liberty cell function has been overwritten due to multiple declarations (occurrence:6)
+// Note: (RTL9.26) Liberty pin with internal_node use default input_map (occurrence:20)
+// Warning: (RTL14) Signal has input but it has no output (occurrence:8)
+// Note: (UDP1.1) Swapped set and reset of DFF/DLAT (occurrence:6)
+// Note: (UDP3) Merged redundant user-defined DFF/DLAT primitive(s) (occurrence:6)
+// Warning: (IGN3.2) Duplicate modules/entities are detected. Subsequent modules/entities are ignored (occurrence:627)
+// Note: Read Liberty library successfully
+0
+CPU time     : 1.11    seconds
+Elapse time  : 18      seconds
+Memory usage : 133.82  M bytes
+// Command: set_undriven_signal 0 -golden
+// Command: set_undriven_signal 0 -golden
+0
+// Command: set lec_version_required "16.20100"
+16.20100
+// Command: if {$lec_version >= $lec_version_required} {
+//              set_naming_style genus -golden
+//          } else {
+//              set_naming_style rc -golden
+//          }
+// Command: set_naming_style genus -golden
+0
+// Command: set_naming_rule "%s\[%d\]" -instance_array -golden
+// Command: set_naming_rule %s[%d] -instance_array -golden
+0
+// Command: set_naming_rule "%s_reg" -register -golden
+// Command: set_naming_rule %s_reg -register -golden
+0
+// Command: set_naming_rule "%L.%s" "%L\[%d\].%s" "%s" -instance -golden
+// Command: set_naming_rule %L.%s %L[%d].%s %s -instance -golden
+0
+// Command: set_naming_rule "%L.%s" "%L\[%d\].%s" "%s" -variable -golden
+// Command: set_naming_rule %L.%s %L[%d].%s %s -variable -golden
+0
+// Command: set lec_version_required "17.10200"
+17.10200
+// Command: if {$lec_version >= $lec_version_required} {
+//              set_naming_rule -ungroup_separator {_} -golden
+//          }
+// Command: set_naming_rule -ungroup_separator _ -golden
+0
+// Command: set lec_version_required "17.20301"
+17.20301
+// Command: if {$lec_version >= $lec_version_required} {
+//              set_hdl_options -const_port_extend
+//          }
+// Command: set_hdl_options -const_port_extend
+0
+// Command: set_hdl_options -unsigned_conversion_overflow on
+// Command: set_hdl_options -unsigned_conversion_overflow on
+0
+// Command: set_hdl_option -v_to_vd on
+// Command: set_hdl_options -v_to_vd on
+// Note: '-v' to '-vd' option is 'ON'
+0
+// Command: set lec_version_required "20.20226"
+20.20226
+// Command: if {$lec_version >= $lec_version_required} {
+//              set_hdl_options -VERILOG_INCLUDE_DIR "sep:src"
+//          } else {
+//              set_hdl_options -VERILOG_INCLUDE_DIR "sep:src:cwd"
+//          }
+// Command: set_hdl_options -VERILOG_INCLUDE_DIR sep:src
+0
+// Command: delete_search_path -all -design -golden
+// Command: delete_search_path -all -design -golden
+0
+// Command: add_search_path . ./RTL_source -design -golden
+// Command: add_search_path . ./RTL_source -design -golden
+0
+// Command: read_design  -define SYNTHESIS  -merge bbox -golden -lastmod -noelab  -verilog2k RTL_source/single_port_ram.v RTL_source/ram_mod.v
+// Command: read_design -define SYNTHESIS -merge bbox -golden -lastmod -noelab -verilog2k RTL_source/single_port_ram.v RTL_source/ram_mod.v
+// Parsing file RTL_source/single_port_ram.v ...
+// Error: PARSE_ERROR: Parsing syntax error
+//  parse error near token ')'
+//  near column 4 on line 12 in file 'RTL_source/single_port_ram.v'
+1
+    while executing
+"read_design  -define SYNTHESIS  -merge bbox -golden -lastmod -noelab  -verilog2k RTL_source/single_port_ram.v RTL_source/ram_mod.v"
+// 'dofile /run/media/user1/c2s/sriram/singlePortRAM/08_singlePortRAM_Post_Synthesis_LEC/rtl2intermediate.lec.do' is aborted at line 112
+// Warning: Error exit from dofile 'rtl2intermediate.lec.do' due to 'set dofile abort exit' command

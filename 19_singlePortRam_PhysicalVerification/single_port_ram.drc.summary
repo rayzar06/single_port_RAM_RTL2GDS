@@ -1,0 +1,82 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Fri Jul 12 16:29:02 2024
+Calibre Version:           v2021.4_33.16    Tue Dec 7 12:25:17 PST 2021
+Rule File Pathname:        /run/media/user1/c2s/sriram/singlePortRAM/19_singlePortRam_PhysicalVerification/_ANTENNA.header_
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            single_port_ram.calibre.db
+Layout Primary Cell:       single_port_ram
+Current Directory:         /run/media/user1/c2s/sriram/singlePortRAM/19_singlePortRam_PhysicalVerification
+User Name:                 user1
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   4096
+DRC Results Database:      single_port_ram_antenna.drc.results (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       single_port_ram.drc.summary (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = YES  ANGLED = NO  OFFGRID = YES
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+ACUTE angle on layer M2 at location (64.11,0.99) in cell subil_pngatebuff.
+ACUTE angle on layer M2 at location (64.11,0.99) in cell subil_pngatebuff_ESD122.
+ACUTE angle on layer M2 at location (64.11,0.99) in cell subil_pngatebuff_ESD1.
+ACUTE angle on layer AA at location (28.73,325.56) in cell subil_midconer2.
+ACUTE angle on layer AA at location (34.43,317.94) in cell subil_midconer2.
+ACUTE angle on layer AA at location (36.86,315.64) in cell subil_midconer2.
+ACUTE angle on layer M3 at location (35.88,332.87) in cell subil_midconer2.
+ACUTE angle on layer MT at location (10.58,346.34) in cell subil_midconer2.
+ACUTE angle on layer MT at location (26.42,324.48) in cell subil_midconer2.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER AA ... TOTAL Original Geometry Count = 259   (45037)
+LAYER GC ... TOTAL Original Geometry Count = 133   (22865)
+LAYER CS ... TOTAL Original Geometry Count = 19907 (490412)
+LAYER HV ... TOTAL Original Geometry Count = 61    (1375)
+LAYER M1 ... TOTAL Original Geometry Count = 1543  (72965)
+LAYER V2 ... TOTAL Original Geometry Count = 16061 (373583)
+LAYER M2 ... TOTAL Original Geometry Count = 3382  (11540)
+LAYER V3 ... TOTAL Original Geometry Count = 19345 (281029)
+LAYER M3 ... TOTAL Original Geometry Count = 1772  (5447)
+LAYER VT ... TOTAL Original Geometry Count = 36915 (318457)
+LAYER MT ... TOTAL Original Geometry Count = 212   (2065)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK AP1 ...... TOTAL Result Count = 0 (0)
+RULECHECK AC1 ...... TOTAL Result Count = 0 (0)
+RULECHECK AM1_M1 ... TOTAL Result Count = 0 (0)
+RULECHECK AM2_M1 ... TOTAL Result Count = 0 (0)
+RULECHECK AV1_V2 ... TOTAL Result Count = 0 (0)
+RULECHECK AV2_V2 ... TOTAL Result Count = 0 (0)
+RULECHECK AM1_M2 ... TOTAL Result Count = 0 (0)
+RULECHECK AM2_M2 ... TOTAL Result Count = 0 (0)
+RULECHECK AV1_V3 ... TOTAL Result Count = 0 (0)
+RULECHECK AV2_V3 ... TOTAL Result Count = 0 (0)
+RULECHECK AM1_M3 ... TOTAL Result Count = 0 (0)
+RULECHECK AM2_M3 ... TOTAL Result Count = 0 (0)
+RULECHECK AV1_VT ... TOTAL Result Count = 0 (0)
+RULECHECK AV2_VT ... TOTAL Result Count = 0 (0)
+RULECHECK AM1_MT ... TOTAL Result Count = 0 (0)
+RULECHECK AM2_MT ... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS (BY CELL)
+---
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  2
+TOTAL REAL Time:                 2
+TOTAL Original Layer Geometries: 99590 (1624775)
+TOTAL DRC RuleChecks Executed:   16
+TOTAL DRC Results Generated:     0 (0)

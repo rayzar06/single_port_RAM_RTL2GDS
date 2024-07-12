@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim/ram_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_mod
+ERROR: [VRFC 10-1280] procedural assignment to a non-register dataOut is not permitted, left-hand side should be reg/integer/time/genvar [/run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim/ram_mod.v:25]
+ERROR: [VRFC 10-8530] module 'ram_mod' is ignored due to previous errors [/run/media/user1/c2s/sriram/singlePortRAM/03_singlePortRAM_Sim/ram_mod.v:1]

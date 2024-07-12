@@ -6,29 +6,21 @@ module single_port_ram # (
     (      
         input clk ,
         input [ADDRWIDTH-1:0] addr ,
-        inout [DATAWIDTH-1:0] data ,
+        input [DATAWIDTH-1:0] data ,
         input cs ,
         input we ,
-        input oe 
+        output [DATAWIDTH-1:0] dataOut
     );
 
-
-
-reg [DATAWIDTH-1:0] mem [0:SIZE-1];
-reg [DATAWIDTH-1:0] tempMem ; 
-
-always @(posedge clk) begin
-    if (cs & we)
-        mem[addr] <= data ;
+	
+ram_mod # (ADDRWIDTH,DATAWIDTH,SIZE) ram_1 (
+    .clk(clk) ,
+    .addr(addr) ,
+    .data(data) ,
+    .cs(cs) ,
+    .we(we) ,
+    .dataOut(dataOut)
     
-end
-
-always @(posedge clk) begin
-    if (cs & !we)
-        tempMem <= mem[addr] ;
-
-end
-
-assign data = cs & oe & !we ? tempMem : 'hz ;
+);
 
 endmodule

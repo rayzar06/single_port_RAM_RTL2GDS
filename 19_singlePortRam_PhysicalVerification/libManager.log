@@ -1,0 +1,82 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 01/17/2024 18:07 (csvcm36c-7) $
+\o Sub version:		sub-version  s353 
+\o Arguments:		-unmapped -mpssession virtuoso1712344 -mpshost c2s 
+\o Working Directory:	c2s:/run/media/user1/c2s/sriram/singlePortRAM/19_singlePortRam_PhysicalVerification
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o MPS virtuoso types registered: 65
+\o changeWorkingDir("/run/media/user1/c2s/sriram/singlePortRAM/19_singlePortRam_PhysicalVerification") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/run/media/user1/c2s/sriram/singlePortRAM/19_singlePortRam_PhysicalVerification/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(149 110 602 491))
+\w Warning: The directory: '/home/install/FOUNDRY/rfLib_new' does not exist
+\w 	but was defined in libFile '/home/user1/cds.lib' for Lib 'rfLib_new'.
+\w Warning: The directory: '/run/media/user1/c2s/cadence/install/INCISIVE152/tools/affirma_ams/etc/connect_lib/connectLib' does not exist
+\w 	but was defined in libFile '/home/user1/cds.lib' for Lib 'connectLib'.
+\a nrResizeWindow(cdsLibManager list(149 110 602 491))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1248 264 602 491))
+\a cdsLibManager->libListBox->value = "ram"
+\a cdsLibManager->libLineEdit->value = "ram"
+\o Cell filter set to "singl"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/install/FOUNDRY/rfLib_new' does not exist
+\w 	but was defined in libFile '/home/user1/cds.lib' for Lib 'rfLib_new'.
+\w Warning: The directory: '/run/media/user1/c2s/cadence/install/INCISIVE152/tools/affirma_ams/etc/connect_lib/connectLib' does not exist
+\w 	but was defined in libFile '/home/user1/cds.lib' for Lib 'connectLib'.
+\a cdsLibManager->libListBox->value = "ram"
+\a cdsLibManager->libLineEdit->value = "ram"
+\a _lmSetFilter( 'cell "singl")
+\o Cell filter set to "sing"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/install/FOUNDRY/rfLib_new' does not exist
+\w 	but was defined in libFile '/home/user1/cds.lib' for Lib 'rfLib_new'.
+\w Warning: The directory: '/run/media/user1/c2s/cadence/install/INCISIVE152/tools/affirma_ams/etc/connect_lib/connectLib' does not exist
+\w 	but was defined in libFile '/home/user1/cds.lib' for Lib 'connectLib'.
+\a cdsLibManager->libListBox->value = "ram"
+\a cdsLibManager->libLineEdit->value = "ram"
+\a _lmSetFilter( 'cell "sing")
+\o Cell filter set to "ram"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/install/FOUNDRY/rfLib_new' does not exist
+\w 	but was defined in libFile '/home/user1/cds.lib' for Lib 'rfLib_new'.
+\w Warning: The directory: '/run/media/user1/c2s/cadence/install/INCISIVE152/tools/affirma_ams/etc/connect_lib/connectLib' does not exist
+\w 	but was defined in libFile '/home/user1/cds.lib' for Lib 'connectLib'.
+\a cdsLibManager->libListBox->value = "ram"
+\a cdsLibManager->libLineEdit->value = "ram"
+\a _lmSetFilter( 'cell "ram")
+\o Cell filter set to ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/install/FOUNDRY/rfLib_new' does not exist
+\w 	but was defined in libFile '/home/user1/cds.lib' for Lib 'rfLib_new'.
+\w Warning: The directory: '/run/media/user1/c2s/cadence/install/INCISIVE152/tools/affirma_ams/etc/connect_lib/connectLib' does not exist
+\w 	but was defined in libFile '/home/user1/cds.lib' for Lib 'connectLib'.
+\a cdsLibManager->libListBox->value = "ram"
+\a cdsLibManager->libLineEdit->value = "ram"
+\a _lmSetFilter( 'cell "")
+\a cdsLibManager->cellComboFilter->value = ""
+\a cdsLibManager->cellListBox->value = "single_port_ram"
+\a cdsLibManager->cellLineEdit->value = "single_port_ram"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

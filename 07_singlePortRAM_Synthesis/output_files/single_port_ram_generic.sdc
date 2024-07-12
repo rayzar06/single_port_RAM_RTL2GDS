@@ -1,6 +1,6 @@
 # ####################################################################
 
-#  Created by Genus(TM) Synthesis Solution 21.18-s082_1 on Wed Jul 10 14:29:42 IST 2024
+#  Created by Genus(TM) Synthesis Solution 21.18-s082_1 on Fri Jul 12 12:47:01 IST 2024
 
 # ####################################################################
 
@@ -32,7 +32,6 @@ group_path -weight 1.000000 -name I2R -from [list \
   [get_ports {addr_pad[0]}]  \
   [get_ports cs_pad]  \
   [get_ports we_pad]  \
-  [get_ports oe_pad]  \
   [get_ports {data_pad[7]}]  \
   [get_ports {data_pad[6]}]  \
   [get_ports {data_pad[5]}]  \
@@ -41,6 +40,14 @@ group_path -weight 1.000000 -name I2R -from [list \
   [get_ports {data_pad[2]}]  \
   [get_ports {data_pad[1]}]  \
   [get_ports {data_pad[0]}] ] -to [list \
+  [get_cells {ram_1/dataOut_reg[0]}]  \
+  [get_cells {ram_1/dataOut_reg[1]}]  \
+  [get_cells {ram_1/dataOut_reg[2]}]  \
+  [get_cells {ram_1/dataOut_reg[3]}]  \
+  [get_cells {ram_1/dataOut_reg[4]}]  \
+  [get_cells {ram_1/dataOut_reg[5]}]  \
+  [get_cells {ram_1/dataOut_reg[6]}]  \
+  [get_cells {ram_1/dataOut_reg[7]}]  \
   [get_cells {ram_1/mem_reg[15][0]}]  \
   [get_cells {ram_1/mem_reg[15][1]}]  \
   [get_cells {ram_1/mem_reg[15][2]}]  \
@@ -168,16 +175,16 @@ group_path -weight 1.000000 -name I2R -from [list \
   [get_cells {ram_1/mem_reg[0][4]}]  \
   [get_cells {ram_1/mem_reg[0][5]}]  \
   [get_cells {ram_1/mem_reg[0][6]}]  \
-  [get_cells {ram_1/mem_reg[0][7]}]  \
-  [get_cells {ram_1/tempMem_reg[0]}]  \
-  [get_cells {ram_1/tempMem_reg[1]}]  \
-  [get_cells {ram_1/tempMem_reg[2]}]  \
-  [get_cells {ram_1/tempMem_reg[3]}]  \
-  [get_cells {ram_1/tempMem_reg[4]}]  \
-  [get_cells {ram_1/tempMem_reg[5]}]  \
-  [get_cells {ram_1/tempMem_reg[6]}]  \
-  [get_cells {ram_1/tempMem_reg[7]}] ]
+  [get_cells {ram_1/mem_reg[0][7]}] ]
 group_path -weight 1.000000 -name R2O -from [list \
+  [get_cells {ram_1/dataOut_reg[0]}]  \
+  [get_cells {ram_1/dataOut_reg[1]}]  \
+  [get_cells {ram_1/dataOut_reg[2]}]  \
+  [get_cells {ram_1/dataOut_reg[3]}]  \
+  [get_cells {ram_1/dataOut_reg[4]}]  \
+  [get_cells {ram_1/dataOut_reg[5]}]  \
+  [get_cells {ram_1/dataOut_reg[6]}]  \
+  [get_cells {ram_1/dataOut_reg[7]}]  \
   [get_cells {ram_1/mem_reg[15][0]}]  \
   [get_cells {ram_1/mem_reg[15][1]}]  \
   [get_cells {ram_1/mem_reg[15][2]}]  \
@@ -305,15 +312,7 @@ group_path -weight 1.000000 -name R2O -from [list \
   [get_cells {ram_1/mem_reg[0][4]}]  \
   [get_cells {ram_1/mem_reg[0][5]}]  \
   [get_cells {ram_1/mem_reg[0][6]}]  \
-  [get_cells {ram_1/mem_reg[0][7]}]  \
-  [get_cells {ram_1/tempMem_reg[0]}]  \
-  [get_cells {ram_1/tempMem_reg[1]}]  \
-  [get_cells {ram_1/tempMem_reg[2]}]  \
-  [get_cells {ram_1/tempMem_reg[3]}]  \
-  [get_cells {ram_1/tempMem_reg[4]}]  \
-  [get_cells {ram_1/tempMem_reg[5]}]  \
-  [get_cells {ram_1/tempMem_reg[6]}]  \
-  [get_cells {ram_1/tempMem_reg[7]}] ] -to [list \
+  [get_cells {ram_1/mem_reg[0][7]}] ] -to [list \
   [get_ports {data_pad[7]}]  \
   [get_ports {data_pad[6]}]  \
   [get_ports {data_pad[5]}]  \
@@ -323,6 +322,14 @@ group_path -weight 1.000000 -name R2O -from [list \
   [get_ports {data_pad[1]}]  \
   [get_ports {data_pad[0]}] ]
 group_path -weight 1.000000 -name R2R -from [list \
+  [get_cells {ram_1/dataOut_reg[0]}]  \
+  [get_cells {ram_1/dataOut_reg[1]}]  \
+  [get_cells {ram_1/dataOut_reg[2]}]  \
+  [get_cells {ram_1/dataOut_reg[3]}]  \
+  [get_cells {ram_1/dataOut_reg[4]}]  \
+  [get_cells {ram_1/dataOut_reg[5]}]  \
+  [get_cells {ram_1/dataOut_reg[6]}]  \
+  [get_cells {ram_1/dataOut_reg[7]}]  \
   [get_cells {ram_1/mem_reg[15][0]}]  \
   [get_cells {ram_1/mem_reg[15][1]}]  \
   [get_cells {ram_1/mem_reg[15][2]}]  \
@@ -450,15 +457,15 @@ group_path -weight 1.000000 -name R2R -from [list \
   [get_cells {ram_1/mem_reg[0][4]}]  \
   [get_cells {ram_1/mem_reg[0][5]}]  \
   [get_cells {ram_1/mem_reg[0][6]}]  \
-  [get_cells {ram_1/mem_reg[0][7]}]  \
-  [get_cells {ram_1/tempMem_reg[0]}]  \
-  [get_cells {ram_1/tempMem_reg[1]}]  \
-  [get_cells {ram_1/tempMem_reg[2]}]  \
-  [get_cells {ram_1/tempMem_reg[3]}]  \
-  [get_cells {ram_1/tempMem_reg[4]}]  \
-  [get_cells {ram_1/tempMem_reg[5]}]  \
-  [get_cells {ram_1/tempMem_reg[6]}]  \
-  [get_cells {ram_1/tempMem_reg[7]}] ] -to [list \
+  [get_cells {ram_1/mem_reg[0][7]}] ] -to [list \
+  [get_cells {ram_1/dataOut_reg[0]}]  \
+  [get_cells {ram_1/dataOut_reg[1]}]  \
+  [get_cells {ram_1/dataOut_reg[2]}]  \
+  [get_cells {ram_1/dataOut_reg[3]}]  \
+  [get_cells {ram_1/dataOut_reg[4]}]  \
+  [get_cells {ram_1/dataOut_reg[5]}]  \
+  [get_cells {ram_1/dataOut_reg[6]}]  \
+  [get_cells {ram_1/dataOut_reg[7]}]  \
   [get_cells {ram_1/mem_reg[15][0]}]  \
   [get_cells {ram_1/mem_reg[15][1]}]  \
   [get_cells {ram_1/mem_reg[15][2]}]  \
@@ -586,15 +593,7 @@ group_path -weight 1.000000 -name R2R -from [list \
   [get_cells {ram_1/mem_reg[0][4]}]  \
   [get_cells {ram_1/mem_reg[0][5]}]  \
   [get_cells {ram_1/mem_reg[0][6]}]  \
-  [get_cells {ram_1/mem_reg[0][7]}]  \
-  [get_cells {ram_1/tempMem_reg[0]}]  \
-  [get_cells {ram_1/tempMem_reg[1]}]  \
-  [get_cells {ram_1/tempMem_reg[2]}]  \
-  [get_cells {ram_1/tempMem_reg[3]}]  \
-  [get_cells {ram_1/tempMem_reg[4]}]  \
-  [get_cells {ram_1/tempMem_reg[5]}]  \
-  [get_cells {ram_1/tempMem_reg[6]}]  \
-  [get_cells {ram_1/tempMem_reg[7]}] ]
+  [get_cells {ram_1/mem_reg[0][7]}] ]
 group_path -weight 1.000000 -name I2O -from [list \
   [get_ports clk_pad]  \
   [get_ports {addr_pad[3]}]  \
@@ -603,7 +602,6 @@ group_path -weight 1.000000 -name I2O -from [list \
   [get_ports {addr_pad[0]}]  \
   [get_ports cs_pad]  \
   [get_ports we_pad]  \
-  [get_ports oe_pad]  \
   [get_ports {data_pad[7]}]  \
   [get_ports {data_pad[6]}]  \
   [get_ports {data_pad[5]}]  \

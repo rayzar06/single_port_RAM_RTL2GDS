@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Fri Jul 12 16:27:12 IST 2024
+//     by Calibre Interactive - DRC (v2021.4_33.16)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "single_port_ram.calibre.db"
+LAYOUT PRIMARY "single_port_ram"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "single_port_ram.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME YES CELL SPACE XFORM
+DRC SUMMARY REPORT "single_port_ram.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/run/media/user1/c2s/sriram/SCLPDK/scl_pdk/design_kit/drclvs_rsf/DRC_CHIP.header"
+

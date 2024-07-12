@@ -42,9 +42,9 @@ set_system_mode setup
 #-------------------------------------------------------------------------------
 # MODULE ram_mod_ADDRWIDTH4_DATAWIDTH8_SIZE16 (G) INSTANCE /ram_1 (G)
 # MODULE ram_mod_ADDRWIDTH4_DATAWIDTH8_SIZE16 (R) INSTANCE /ram_1 (R)
-# Wrapper size: (G) = 0  (R) = 0
-# Periphery size: (G) = 444  (R) = 692
-# Pins directly connected to key-points/constants: (G) = 100.00%  (R) = 100.00%
+# Wrapper size: (G) = 72  (R) = 72
+# Periphery size: (G) = 490  (R) = 736
+# Pins directly connected to key-points/constants: (G) = 65.22%  (R) = 65.22%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
 # IN (G) clk  (KP<--)(REP)  =   (R) clk  (KP<--)(REP) (by sim and name)
@@ -52,19 +52,25 @@ set_system_mode setup
 # IN (G) addr[2]  (KP<--)(REP)  =   (R) addr[2]  (KP<--)(REP) (by sim and name)
 # IN (G) addr[1]  (KP<--)(REP)  =   (R) addr[1]  (KP<--)(REP) (by sim and name)
 # IN (G) addr[0]  (KP<--)(REP)  =   (R) addr[0]  (KP<--)(REP) (by sim and name)
+# IN (G) data[7] (REP)  =   (R) data[7] (REP) (by sim and name)
+# IN (G) data[6] (REP)  =   (R) data[6] (REP) (by sim and name)
+# IN (G) data[5] (REP)  =   (R) data[5] (REP) (by sim and name)
+# IN (G) data[4] (REP)  =   (R) data[4] (REP) (by sim and name)
+# IN (G) data[3] (REP)  =   (R) data[3] (REP) (by sim and name)
+# IN (G) data[2] (REP)  =   (R) data[2] (REP) (by sim and name)
+# IN (G) data[1] (REP)  =   (R) data[1] (REP) (by sim and name)
+# IN (G) data[0] (REP)  =   (R) data[0] (REP) (by sim and name)
 # IN (G) cs  (KP<--)(REP)  =   (R) cs  (KP<--)(REP) (by sim and name)
 # IN (G) we  (KP<--)(REP)  =   (R) we  (KP<--)(REP) (by sim and name)
-# IN (G) oe  (KP<--)(REP)  =   (R) oe  (KP<--)(REP) (by sim and name)
 # RESOLVED Constraints
-# RESOLVED Constraints
-# IO (G) data[7] (REP)  =   (R) data[7] (REP) (by name)
-# IO (G) data[6] (REP)  =   (R) data[6] (REP) (by name)
-# IO (G) data[5] (REP)  =   (R) data[5] (REP) (by name)
-# IO (G) data[4] (REP)  =   (R) data[4] (REP) (by name)
-# IO (G) data[3] (REP)  =   (R) data[3] (REP) (by name)
-# IO (G) data[2] (REP)  =   (R) data[2] (REP) (by name)
-# IO (G) data[1] (REP)  =   (R) data[1] (REP) (by name)
-# IO (G) data[0] (REP)  =   (R) data[0] (REP) (by name)
+# OUT (G) dataOut[7]  (KP<--)(REP)  =   (R) dataOut[7]  (KP<--)(REP) (by sim and name)
+# OUT (G) dataOut[6]  (KP<--)(REP)  =   (R) dataOut[6]  (KP<--)(REP) (by sim and name)
+# OUT (G) dataOut[5]  (KP<--)(REP)  =   (R) dataOut[5]  (KP<--)(REP) (by sim and name)
+# OUT (G) dataOut[4]  (KP<--)(REP)  =   (R) dataOut[4]  (KP<--)(REP) (by sim and name)
+# OUT (G) dataOut[3]  (KP<--)(REP)  =   (R) dataOut[3]  (KP<--)(REP) (by sim and name)
+# OUT (G) dataOut[2]  (KP<--)(REP)  =   (R) dataOut[2]  (KP<--)(REP) (by sim and name)
+# OUT (G) dataOut[1]  (KP<--)(REP)  =   (R) dataOut[1]  (KP<--)(REP) (by sim and name)
+# OUT (G) dataOut[0]  (KP<--)(REP)  =   (R) dataOut[0]  (KP<--)(REP) (by sim and name)
 set_root_module ram_mod_ADDRWIDTH4_DATAWIDTH8_SIZE16 -Golden
 set_root_module ram_mod_ADDRWIDTH4_DATAWIDTH8_SIZE16 -Revised
 set_module_property -instance /ram_1 -Golden
@@ -95,7 +101,6 @@ usage
 # IN (G) addr_pad[0] (REP)  =   (R) addr_pad[0] (REP) (by name)
 # IN (G) cs_pad (REP)  =   (R) cs_pad (REP) (by name)
 # IN (G) we_pad (REP)  =   (R) we_pad (REP) (by name)
-# IN (G) oe_pad (REP)  =   (R) oe_pad (REP) (by name)
 # RESOLVED Constraints
 # RESOLVED Constraints
 # IO (G) data_pad[7] (REP)  =   (R) data_pad[7] (REP) (by name)

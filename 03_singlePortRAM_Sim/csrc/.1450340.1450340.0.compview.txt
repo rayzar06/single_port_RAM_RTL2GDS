@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1720766594.635772888, "rt":0.86, "ut":0.09, "st":0.05}}
+{"vcselab":{"timestamp_begin":1720766595.548464609, "rt":0.85, "ut":0.13, "st":0.02}}
+{"link":{"timestamp_begin":1720766596.436727317, "rt":0.16, "ut":0.11, "st":0.06}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1720766594.362575061}
+{"VCS_COMP_START_TIME": 1720766594.362575061}
+{"VCS_COMP_END_TIME": 1720766596.696148796}
+{"VCS_USER_OPTIONS": "-v ram_mod.v single_port_ram.v ram_tb.v -o test -full64 -debug_all"}
+{"vcs1": {"peak_mem": 368840}}
+{"stitch_vcselab": {"peak_mem": 237052}}

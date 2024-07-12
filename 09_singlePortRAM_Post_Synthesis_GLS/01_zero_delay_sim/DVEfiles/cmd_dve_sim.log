@@ -9,16 +9,17 @@ synopsys::dump -autoflush on -fid VPD0
 set ::dve_fid VPD0
 synUtils::setDVEInitPhase 0
 ucliCore::getToolPID
-synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpKYFDOu
-synUtils::sendTool -active {_icl_start_rpc -version "T-2022.06-SP2-5_Full64" -sync_file /tmp/vcs_dve_rpc.user1.232386}
-synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.user1.232386}
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpEhnAa3
+synUtils::sendTool -active {_icl_start_rpc -version "T-2022.06-SP2-5_Full64" -sync_file /tmp/vcs_dve_rpc.user1.1466540}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.user1.1466540}
 config endofsim noexit
 config onfail enable all
 config syscaddplainmembers
 config syscaddsourcenames
 config syscaddstructtypes
 synopsys::listing -disable
-synopsys::dump -add {ram_tb_with_pad.ADDRWIDTH ram_tb_with_pad.DATAWIDTH ram_tb_with_pad.SIZE ram_tb_with_pad.addr ram_tb_with_pad.clk ram_tb_with_pad.cs ram_tb_with_pad.data ram_tb_with_pad.i ram_tb_with_pad.oe ram_tb_with_pad.tb_data ram_tb_with_pad.we } -aggregates  -fid VPD0
+synopsys::dump -add {ram_tb_with_pad} -scope "." -depth 1 -fid VPD0
+synopsys::dump -add {{ram_tb_with_pad.dut.ram_1.\mem[0] } {ram_tb_with_pad.dut.ram_1.\mem[10] } {ram_tb_with_pad.dut.ram_1.\mem[11] } {ram_tb_with_pad.dut.ram_1.\mem[12] } {ram_tb_with_pad.dut.ram_1.\mem[13] } {ram_tb_with_pad.dut.ram_1.\mem[14] } {ram_tb_with_pad.dut.ram_1.\mem[15] } {ram_tb_with_pad.dut.ram_1.\mem[1] } {ram_tb_with_pad.dut.ram_1.\mem[2] } {ram_tb_with_pad.dut.ram_1.\mem[3] } {ram_tb_with_pad.dut.ram_1.\mem[4] } {ram_tb_with_pad.dut.ram_1.\mem[5] } {ram_tb_with_pad.dut.ram_1.\mem[6] } {ram_tb_with_pad.dut.ram_1.\mem[7] } {ram_tb_with_pad.dut.ram_1.\mem[8] } {ram_tb_with_pad.dut.ram_1.\mem[9] } ram_tb_with_pad.dut.ram_1.data ram_tb_with_pad.dut.ram_1.dataOut } -aggregates  -fid VPD0
 synopsys::run
 set ucliGUI::state
 set ucliGUI::state

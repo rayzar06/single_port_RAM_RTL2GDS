@@ -1,0 +1,2 @@
+SOFTINCLUDE /home/user1/cds.lib
+DEFINE ram /run/media/user1/c2s/sriram/singlePortRAM/19_singlePortRam_PhysicalVerification/ram

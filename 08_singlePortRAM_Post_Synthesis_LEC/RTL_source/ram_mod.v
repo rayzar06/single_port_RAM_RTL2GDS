@@ -6,10 +6,10 @@ module ram_mod # (
     (      
         input clk ,
         input [ADDRWIDTH-1:0] addr ,
-        inout [DATAWIDTH-1:0] data ,
+        input [DATAWIDTH-1:0] data ,
         input cs ,
         input we ,
-        input oe 
+        output reg [DATAWIDTH-1:0] dataOut
     );
 
 
@@ -18,17 +18,12 @@ reg [DATAWIDTH-1:0] mem [0:SIZE-1];
 reg [DATAWIDTH-1:0] tempMem ; 
 
 always @(posedge clk) begin
-    if (cs & we)
-        mem[addr] <= data ;
-    
+    if (cs) begin
+    	if (we) 
+    		mem[addr] <= data ;
+	else
+		dataOut = mem[addr];
+    end
 end
-
-always @(posedge clk) begin
-    if (cs & !we)
-        tempMem <= mem[addr] ;
-
-end
-
-assign data = cs & oe & !we ? tempMem : 'hz ;
 
 endmodule

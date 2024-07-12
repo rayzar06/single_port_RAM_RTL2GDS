@@ -10,5 +10,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "/run/media/user1/c2s/sriram/singleP
 INFO: [VRFC 10-311] analyzing module single_port_ram
 INFO: [VRFC 10-2263] Analyzing Verilog file "/run/media/user1/c2s/sriram/singlePortRAM/project_1/ram_tb_with_pad.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ram_tb_with_pad
-INFO: [VRFC 10-2263] Analyzing Verilog file "/run/media/user1/c2s/sriram/singlePortRAM/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
